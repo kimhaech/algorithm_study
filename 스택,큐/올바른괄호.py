@@ -9,7 +9,7 @@ def solution(s):
             if s[i] == '(': # 열린 괄호는 +1
                 sum += 1
             else:
-                if sum <= 0: # 열린 괄호가 모두 닫힌 상태에서 닫힌 괄호가 나온 경우
+                if sum == 0: # 열린 괄호가 모두 닫힌 상태에서 닫힌 괄호가 나온 경우
                     return False
                 else: # 닫힌 괄호는 -1
                     sum -= 1
