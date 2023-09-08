@@ -5,7 +5,7 @@ commands의 각 조건 i,j,k에 맞게 슬라이싱 -> 정렬 -> 인덱싱을 �
 -java
 
 - code
-  ```
+  ``` java
   import java.util.Arrays;
 
   class Solution {
